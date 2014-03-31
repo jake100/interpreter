@@ -1,7 +1,7 @@
 interpreter
 ===========
 
-interpreter written in python for a stack based language that uses reverse polish notation that I'm in the process of creating.
+interpreter written in python for a stack based language that uses reverse polish notation.
 
 you can call another file that shares the same stack with @
 
