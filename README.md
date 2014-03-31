@@ -2,8 +2,12 @@ interpreter
 ===========
 
 interpreter for a language that I'm making, is a stack based language, uses reverse polish notation mostly.
+you can call another file that shares the same stack with @
+if, for, while statements, these statemenst can also call another file.
+this language has variables the can be named, retrieved and edited.
+calls to another file
 
-hello world written in this language:
+hello world example:
 
 :hello $s :world .. .. echo
 
