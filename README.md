@@ -3,6 +3,10 @@ interpreter
 
 interpreter for a language that I'm making, is a stack based language, uses reverse polish notation mostly.
 
+hello world written in this language:
+
+:hello $s :world .. .. echo
+
 :4 - adds 4 to the stack
 
 :hello - adds hello to the stack
