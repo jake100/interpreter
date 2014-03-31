@@ -1,9 +1,10 @@
 interpreter
 ===========
 
-stack based language, uses reverse polish notation mostly.
+interpreter written in python for a stack based language that uses reverse polish notation that I'm in the prosess of creating.
+
 you can call another file that shares the same stack with @
-if, for, while statements, these statemenst can also call another file.
+if, for, while statements can call another file as well.
 this language has variables the can be named, retrieved and edited.
 calls to another file
 
