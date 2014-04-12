@@ -1,1 +1,27 @@
-:hello :world .. echo
+'' =str
+'i' 0 100 &fizz_buzz for
+$str echo
+; fizz_buzz
+	$i 3 % 0 ==
+	$i 5 % 0 ==
+	and &both &one if_else
+;
+
+; both
+	$str 'fizz buzz, ' . =str
+;
+
+; one
+	$i 3 % 0 ==
+	&fizz if
+	$i 5 % 0 ==
+	&buzz if
+;
+
+; fizz
+	$str 'fizz, ' . =str
+;
+
+; buzz
+	$str 'buzz, ' . =str
+;
